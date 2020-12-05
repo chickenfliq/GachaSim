@@ -50,8 +50,9 @@ def r4chan():
 
 #Opens x amount of image URLs in web browser; printing a link to the parent threads in console for reference
 def main():
-    imageurl = r4chan():
+    imageurl = r4chan()
     # TODO: message = index.html
+    f = open('index.html','w')
     message =   """<!DOCTYPE html>
                 <html>
                     <head>
@@ -61,6 +62,7 @@ def main():
                         <img src="{URL}">
                     </body>
                 </html>"""
-    new_message = message.format(URL=imageurl)
-
+    new_message = message.format(URL=imageurl[0])
+    f.write(new_message)
+    f.close()
 main()
