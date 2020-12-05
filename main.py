@@ -50,9 +50,8 @@ def r4chan():
 
 #Opens x amount of image URLs in web browser; printing a link to the parent threads in console for reference
 def main():
-    print "Content-type: text/html"
-    print
-        with open('index.html') as f:
-    print f.read()
+    imageurl = r4chan():
+    message = index.html
+    new_message = message.format(URL=imageurl)
 
 main()
