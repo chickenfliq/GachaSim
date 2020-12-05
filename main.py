@@ -55,4 +55,4 @@ def main(numberOfImages):
         webbrowser.open(url[0])
         time.sleep(1.5)
 
-main(5)
+main(1)
