@@ -52,7 +52,7 @@ def r4chan():
 def main():
     print "Content-type: text/html"
     print
-        with open('html.html') as f:
+        with open('index.html') as f:
     print f.read()
 
 main()
