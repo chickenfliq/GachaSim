@@ -1,4 +1,4 @@
-import requests,random,json,time,webbrowser
+import requests,random,json,time,webbrowser,cgi
 
 #List of 4chan boards, and dict to act as a cache for already looked up board catalogs
 boards = ['c']
