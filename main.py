@@ -49,10 +49,10 @@ def r4chan():
     return [imageurl]
 
 #Opens x amount of image URLs in web browser; printing a link to the parent threads in console for reference
-def main(numberOfImages):
-    for i in range(numberOfImages):
-        url = r4chan()
-        webbrowser.open(url[0])
-        time.sleep(1.5)
+def main():
+    print "Content-type: text/html"
+    print
+        with open('html.html') as f:
+    print f.read()
 
-main(1)
+main()
